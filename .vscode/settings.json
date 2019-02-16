@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/admin/.platformio/penv/bin:/Users/admin/.platformio/penv:/Users/admin/CMMC/gcc-arm-none-eabi/bin:/Users/admin/CMMC/nRF5x-Command-Line-Tools/mergehex:/Users/admin/CMMC/nRF5x-Command-Line-Tools/nrfjprog:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/heroku/bin:/usr/local/bin/python:/usr/local/bin:/usr/local/sbin:~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/minicom/2.2/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin:/Users/admin/.rvm/bin:/Users/admin/.npm-global/bin:/Users/admin/Documents/flutter/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "files.associations": {
+        "functional": "cpp"
+    }
+}
