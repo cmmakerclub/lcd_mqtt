@@ -1,14 +1,14 @@
 #include <Arduino.h>
 
 /* BOARD INFO */
-String DEVICE_NAME      = "LCD_PICTURE_001";
+String DEVICE_NAME      = "LCD_PICTURE_003";
 
 /* WIFI INFO */
 String WIFI_SSID        = "ampere";
 String WIFI_PASSWORD    = "espertap";
 
 /* MQTT INFO */
-String MQTT_HOST        = "mqtt.cmmc.io";
+String MQTT_HOST        = "192.168.12.1";
 String MQTT_USERNAME    = "";
 String MQTT_PASSWORD    = "";
 String MQTT_CLIENT_ID   = "";

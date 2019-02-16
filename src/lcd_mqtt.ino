@@ -151,18 +151,10 @@ void init_hardware()
   Serial.println("Starting...");
 }
 
-IPAddress local_IP(192, 168, 1, 205);
-IPAddress gateway(192, 168, 1, 254);
-IPAddress subnet(255, 255, 255, 0);
-IPAddress primaryDNS(8, 8, 4, 4); //optional
-IPAddress secondaryDNS(8, 8, 8, 8); //optional
-
 void init_wifi() {
   WiFi.disconnect();
   delay(20);
   WiFi.mode(WIFI_STA);
-  delay(20);
-  // WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS);
   delay(50);
   const char* ssid =  WIFI_SSID.c_str();
   const char* pass =  WIFI_PASSWORD.c_str();
